@@ -1,0 +1,146 @@
+
+
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Баскетбол</title>
+
+<style>
+
+body{
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Анимация заголовка */
+h1{
+    color: orange;
+    font-size: 60px;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow{
+    from{
+        text-shadow: 0 0 10px orange;
+        transform: scale(1);
+    }
+
+    to{
+        text-shadow: 0 0 30px yellow;
+        transform: scale(1.05);
+    }
+}
+
+/* Анимация текста */
+p, li, h2, h3{
+    animation: text 2s;
+}
+
+@keyframes text{
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Картинка */
+img{
+    border-radius: 50%;
+    transition: 1s;
+    box-shadow: 0 0 20px black;
+
+    animation: ball 3s infinite alternate;
+}
+
+@keyframes ball{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(10deg);
+    }
+}
+
+img:hover{
+    transform: scale(1.1) rotate(360deg);
+    box-shadow: 0 0 35px orange;
+}
+
+/* Ссылки */
+a{
+    color: cyan;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: yellow;
+    font-size: 30px;
+}
+
+/* Списки */
+ul, ol{
+    display: inline-block;
+    text-align: left;
+    font-size: 25px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>🏀 Мир Баскетбола</h1>
+
+<p>
+<a href="about.html">Главная</a> |
+<a href="players.html">Игроки</a> |
+<a href="rules.html">Правила</a> |
+<a href="test.html">Тест</a>
+</p>
+
+<h2>Что такое баскетбол?</h2>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png" width="250">
+
+<p>
+Баскетбол — это командный вид спорта.
+Подробнее:
+<a href="https://ru.wikipedia.org/wiki/Баскетбол" target="_blank">
+Wikipedia
+</a>
+</p>
+
+<h3>Почему он популярен:</h3>
+
+<ul>
+<li>Быстрая игра</li>
+<li>Зрелищные моменты</li>
+<li>Известные игроки</li>
+</ul>
+
+<h3>Основные элементы:</h3>
+
+<ol>
+<li>Дриблинг</li>
+<li>Броски</li>
+<li>Передачи</li>
+</ol>
+
+<p>
+&copy 2026 Баскетбол проект
+</p>
+
+</body>
+</html>

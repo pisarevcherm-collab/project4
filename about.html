@@ -1,0 +1,124 @@
+
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Главная</title>
+
+<style>
+
+body{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    font-family: Arial;
+    margin: 20px;
+}
+
+/* Анимация заголовков */
+h1{
+    color: orange;
+    animation: title 2s infinite alternate;
+}
+
+@keyframes title{
+    from{
+        transform: scale(1);
+        text-shadow: 0 0 10px orange;
+    }
+
+    to{
+        transform: scale(1.08);
+        text-shadow: 0 0 25px yellow;
+    }
+}
+
+/* Появление текста */
+p{
+    animation: text 2s;
+}
+
+@keyframes text{
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Анимация изображений */
+img{
+    border-radius: 20px;
+    transition: 1s;
+    box-shadow: 0 0 15px black;
+}
+
+img:hover{
+    transform: scale(1.1) rotate(2deg);
+    box-shadow: 0 0 35px orange;
+}
+
+/* Ссылки */
+a{
+    color: cyan;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: yellow;
+    font-size: 30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1 align="center">Общая суть игры</h1>
+
+<p><big>
+Баскетбол — это командная олимпийская игра, где цель двух команд
+(по 5 человек на поле) — забросить мяч в корзину соперника руками,
+набрав больше очков за установленное время.
+Игра отличается высокой скоростью и динамикой.
+</big></p>
+
+<h1 align="center">История создания</h1>
+
+<p><big>
+Баскетбол был придуман в декабре 1891 года преподавателем колледжа YMCA
+в Спрингфилде Джеймсом Нейсмитом.
+Он прикрепил две корзины из-под персиков и создал первые правила игры.
+</big></p>
+
+<p align="center">
+<img src="https://avatars.mds.yandex.net/get-entity_search/5098055/1237870739/S600xU_2x" width="15%">
+</p>
+
+<h1 align="center">Площадка и оборудование</h1>
+
+<p><big>
+Стандартная баскетбольная площадка по правилам FIBA —
+28×15 метров.
+Высота кольца составляет 3,05 метра.
+Используются щиты, сетки, табло и судейское оборудование.
+</big></p>
+
+<p align="center">
+<img src="https://i.pinimg.com/originals/a9/c5/a5/a9c5a570b0ea66b9a4e73a6c256452aa.jpg?nii=t" width="20%">
+</p>
+
+<p align="center">
+<a href="index.html"><b>Мир Баскетбола</b></a> |
+<a href="players.html">Игроки</a> |
+<a href="rules.html">Правила</a> |
+<a href="test.html">Тест</a>
+</p>
+
+</body>
+</html>
